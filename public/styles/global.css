@@ -1,0 +1,15 @@
+@import url('header.css');
+@import url('main.css');
+
+:root {
+  --background: linear-gradient(130deg, rgba(98,142,117,1) 0%, rgba(26,72,85,1) 100%);
+  --white: #F9F9F9;
+  --green: #658E76;
+}
+
+body {
+  height: 100vh;
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+  background: var(--background) no-repeat;
+}

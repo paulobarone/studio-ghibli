@@ -1,0 +1,13 @@
+#header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
+} 
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
