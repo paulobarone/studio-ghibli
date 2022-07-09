@@ -7,7 +7,7 @@
 }
 
 .showcase-image {
-  width: auto;
+  width: 100vw;
   height: auto;
   margin: -50px 0;
 }
@@ -68,4 +68,36 @@
 
 .trailer {
   display: none;
+}
+
+
+@media screen and (min-width: 1280px) {
+
+  .trailer {
+    display: flex;
+    border: 1px solid var(--green);
+  }
+
+  .textgroup {
+    width: 450px;
+  }
+
+  .textgroup-buttons {
+    gap: 20px;
+  }
+
+  #header__container {
+    padding: 50px;
+  }
+
+  #showcase__container {
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .showcase-image {
+    width: 700px;
+  }
 }
